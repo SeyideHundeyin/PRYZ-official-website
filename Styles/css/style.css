@@ -129,7 +129,8 @@ h1 {
   max-width: 70%;
   margin: 0 auto;
   font-size: 3.375rem;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif; }
 
 @media (max-width: 768px) {
   h1 {
