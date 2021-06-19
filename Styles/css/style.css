@@ -81,6 +81,10 @@ h1 {
 .fab {
   color: #a8a8b1; }
 
+.fab:hover {
+  color: #fff;
+  cursor: pointer; }
+
 .token {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem; }
@@ -115,6 +119,18 @@ h1 {
 .first {
   color: #5fc7fe; }
 
+.w-70 {
+  width: 80% !important; }
+
+.com {
+  color: #5fc7fe; }
+
+.coms {
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 3.375rem;
+  font-weight: 600; }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.375rem; }
@@ -135,11 +151,37 @@ h1 {
     display: block;
     padding: 0.2rem;
     width: 64%;
-    margin-top: 0.3rem; } }
+    margin-top: 0.3rem; }
+  .buy {
+    position: absolute;
+    left: 25px;
+    background-color: #0b0d19;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    border-radius: 0.5rem;
+    padding: 0.7rem; }
+  .coms {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 600; } }
 
 @media (max-width: 280px) {
   h1 {
     margin: 0 auto;
     font-size: 1.7rem; }
   .eye {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .buy {
+    position: absolute;
+    left: 25px;
+    background-color: #0b0d19;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    border-radius: 0.5rem;
+    padding: 0.7rem; }
+  .coms {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 600; } }
