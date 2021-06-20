@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body::before {
+  display: block;
+  content: " ";
+  height: 4.75rem;
+  background-color: #0b0d19; }
+
 .bg-dark {
   background-color: #0b0d19 !important;
   margin-top: -0.7px !important; }
@@ -132,6 +138,28 @@ h1 {
   font-weight: 600;
   font-family: "Montserrat", sans-serif; }
 
+.road {
+  font-size: 1.375rem;
+  font-family: "Montserrat", sans-serif;
+  color: #a8a8b1; }
+
+.accordion-button::after {
+  background-image: url(/Images/arrow-down.png) !important; }
+
+.big {
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif; }
+
+.big-desc {
+  font-size: 1rem; }
+
+ul.a {
+  list-style-type: circle; }
+
+.incu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.375rem; }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.375rem; }
@@ -165,7 +193,9 @@ h1 {
     max-width: 100%;
     margin: 0 auto;
     font-size: 2rem;
-    font-weight: 600; } }
+    font-weight: 600; }
+  .incu {
+    font-size: 2.375rem; } }
 
 @media (max-width: 280px) {
   h1 {
@@ -185,4 +215,6 @@ h1 {
     max-width: 100%;
     margin: 0 auto;
     font-size: 1.2rem;
-    font-weight: 600; } }
+    font-weight: 600; }
+  .incu {
+    font-size: 2rem; } }
