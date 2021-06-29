@@ -1,10 +1,5 @@
-//external scsss styles
-@import "launch";
-
-// fonts
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
-// Body
 body::before {
   display: block;
   content: " ";
@@ -12,7 +7,6 @@ body::before {
   background-color: #0b0d19;
 }
 
-// utilities
 .bg-dark {
   background-color: #0b0d19 !important;
   margin-top: -0.7px !important;
@@ -103,7 +97,6 @@ h1 {
   width: 15%;
 }
 
-// scroll section
 .scroll {
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
@@ -245,7 +238,7 @@ ul.a {
 }
 
 .progress-bar {
-  background-color: #5fc7fe !important;
+  background-color: #92d644 !important;
 }
 
 .under {
@@ -292,7 +285,6 @@ input[type="email"] {
 
 input[type="submit"] {
   position: relative;
-  // border-radius: 0 25px 25px 0;
   border-radius: 1.5625rem;
   left: -1.875rem;
   width: 9.375rem;
@@ -307,8 +299,6 @@ input[type="submit"] {
 .numms {
   font-size: 0.8rem;
 }
-
-// mobile styles
 
 @media (max-width: 768px) {
   h1 {
@@ -328,7 +318,6 @@ input[type="submit"] {
     margin: 0 auto;
     text-align: center;
   }
-
   .action-btn-two {
     margin: 0 auto;
     display: block;
