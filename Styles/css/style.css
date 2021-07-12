@@ -375,6 +375,10 @@ input[type="submit"] {
 .numms {
   font-size: 0.8rem; }
 
+.connect {
+  font-size: 4rem !important;
+  font-family: "Montserrat", sans-serif; }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.375rem; }
@@ -445,7 +449,9 @@ input[type="submit"] {
     background-color: #5fc7fe;
     color: #fff; }
   .eye {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  .connect {
+    font-size: 2.2rem !important; } }
 
 @media (max-width: 280px) {
   h1 {
@@ -467,4 +473,6 @@ input[type="submit"] {
     font-size: 1.2rem;
     font-weight: 600; }
   .incu {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .connect {
+    font-size: 1rem !important; } }
