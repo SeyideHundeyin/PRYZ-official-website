@@ -7,10 +7,10 @@ function getCirculatingSupply(){
     .then(function(res){
       const response = res.json();
       response.then((res) => {
-          document.getElementById('roadmap').innerHTML = res.result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",").slice(0, 14);
+          document.getElementById('roadmaps').innerHTML = res.result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",").slice(0, 14);
                    
       })
     })
 }
 
-document.getElementById('roadmap').innerHTML = getCirculatingSupply();
+document.getElementById('roadmaps').innerHTML = getCirculatingSupply();
