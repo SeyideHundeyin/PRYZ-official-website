@@ -3,6 +3,7 @@
 @import "about";
 @import "airdrop";
 @import "upcoming";
+@import "activelaunchpad";
 // fonts
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
@@ -313,6 +314,10 @@ input[type="submit"] {
 .connect {
   font-size: 4rem !important;
   font-family: "Montserrat", sans-serif;
+}
+
+.head_opacity {
+  opacity: 0.5;
 }
 
 // mobile styles

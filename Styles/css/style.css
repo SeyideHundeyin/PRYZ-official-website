@@ -130,6 +130,16 @@
 .tok-info:after {
   margin-left: 10px; }
 
+.fa-copy {
+  cursor: pointer;
+  color: #fff; }
+
+.fa-copy:hover {
+  color: #fff; }
+
+a {
+  text-decoration: none; }
+
 body::before {
   display: block;
   content: " ";
@@ -378,6 +388,9 @@ input[type="submit"] {
 .connect {
   font-size: 4rem !important;
   font-family: "Montserrat", sans-serif; }
+
+.head_opacity {
+  opacity: 0.5; }
 
 @media (max-width: 768px) {
   h1 {
