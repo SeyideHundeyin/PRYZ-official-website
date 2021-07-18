@@ -15,42 +15,28 @@ function textEllipsis(str, maxLength, { side = "end", ellipsis = "..." } = {}) {
 
 var short = textEllipsis('0x720089996e34B0b13812ec9211fde0eF11CD9C52', 10);
 
-document.getElementById('trunc').innerHTML = `${short}` ;
+
+
+// reducing the contract number
+
+document.getElementById('trunc').innerHTML = short;
 
 
 
+// changing the button
+
+document.getElementById("copy").addEventListener("click", function() {
+  document.getElementById("copy").style.display = "none";  
+  document.getElementById("copy").innerHTML = `<i class="fas fa-check"></i>`;  
+});
 
 // copying text
 
-// var copyTextareaBtn = document.querySelector('.fa-copy');
-
-// copyTextareaBtn.addEventListener('click', function(event) {
-//   var copy_text = document.getElementsByTagName("p")[0];
-//   var range = document.createRange();
-//   range.selectNode(copy_text);
-//   window.getSelection().addRange(range);
-
-//     try {
-//     var successful = document.execCommand('copy');
-//     var msg = successful ? 'successful' : 'unsuccessful';
-//     console.log('Copying text command was ' + msg);
-//   } catch (err) {
-//     console.log('Oops, unable to copy');
-//   }
-// });
-
-
-function copyContract() {
-  var copyText = document.getElementById("trunc").innerHTML;
-  copyText.select();
-  copyText.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-}
-
-function changeButton(){
-  document.querySelector('fa-copy').innerHTML = `<i class="fas fa-check"></i>`;
-}
-
-document.getElementById('copy').addEventListener('click', changeButton());
-
-console.log(changeButton())
+document.getElementById("copy").addEventListener('click',function copyContract() {
+  var r = document.createRange();
+r.selectNode(document.getElementById("truncc"));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
+});
