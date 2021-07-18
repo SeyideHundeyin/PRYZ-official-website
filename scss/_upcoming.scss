@@ -34,23 +34,28 @@
 }
 
 .tok-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
 }
+// .tok-info {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: start;
+//   align-items: flex-start;
+// }
 
-.tok-info:before,
-.tok-info:after {
-  content: "";
-  flex: 1 1;
-  border-bottom: 1px solid;
-  margin: auto;
-}
+// .tok-info:before,
+// .tok-info:after {
+//   content: "";
+//   flex: 1 1;
+//   border-bottom: 1px solid;
+//   margin: auto;
+// }
 
-.tok-info:before {
-  margin-right: 10px;
-}
-.tok-info:after {
-  margin-left: 10px;
-}
+// .tok-info:before {
+//   margin-right: 10px;
+// }
+// .tok-info:after {
+//   margin-left: 10px;
+// }
