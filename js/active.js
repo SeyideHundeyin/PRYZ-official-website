@@ -25,10 +25,10 @@ document.getElementById('trunc').innerHTML = short;
 
 // changing the button
 
-document.getElementById("copy").addEventListener("click", function() {
-  document.getElementById("copy").style.display = "none";  
-  document.getElementById("copy").innerHTML = `<i class="fas fa-check"></i>`;  
-});
+// document.getElementById("copy").addEventListener("click", function() {
+//   document.getElementById("copy").style.display = "none";  
+//   document.getElementById("copy").innerHTML = `<i class="fas fa-check"></i>`;  
+// });
 
 // copying text
 
